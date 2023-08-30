@@ -1,0 +1,385 @@
+@import 'fonts.css';
+
+body {
+    font-family: 'Open Sans Regular';
+    overflow-x: hidden;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*menu-bar*/
+.menu-bar {
+    color: #212121;
+    padding: 20px 0;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: white;
+}
+
+.menu__item {
+    margin-left: 37px;
+}
+
+.menu__item a {
+    font-size: 20px;
+    color: #212121;
+    text-decoration: none;
+    font-family: 'Open Sans Semibold';
+}
+
+.menu__item a:hover {
+    color: #8d8d8d;
+}
+
+/*Header*/
+.header {
+    background-size: cover;
+    background-position: 0 100%;
+    color: white;
+    padding: 180px 0;
+    text-align: center;
+    background-image: url(../img/header.png);
+}
+
+.header__title {
+    font-size: 60px;
+    font-family: 'Open Sans Semibold';
+}
+
+.header__text {
+    font-size: 22px;
+    margin-bottom: 100px;
+}
+
+.button {
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: white;
+    transition: 0.3s;
+    background: #00897b;
+    border: 2px solid #00897b;
+}
+
+.button:hover {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.about {
+    color: black;
+    background: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 125px;
+}
+
+.about_title {
+    font-size: 30px;
+    font-family: 'Open Sans Semibold';
+}
+
+.about_text {
+    font-size: 15px;
+    margin-bottom: 110px;
+}
+
+.about_h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
+}
+
+/*Our Services*/
+.services {
+    color: black;
+    background: #e4fdf9;
+    text-align: center;
+    padding-top: 165px;
+    padding-bottom: 125px;
+}
+
+.our_card {
+    background: white;
+    padding: 50px 40px 40px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 60px;
+    color: black;
+    transition: 0.3s;
+}
+
+.our_card:hover .icon {
+    color: white;
+}
+
+.our_card:hover .button_services {
+    color: white;
+    border: 2px white solid;
+}
+
+.button_services {
+    text-transform: uppercase;
+    border: 2px black solid;
+    background-color: transparent;
+    color: black;
+    padding: 10px 12px 10px;
+    font-family: 'Open Sans Semibold';
+    transition: 0.3s;
+}
+
+.our_card:hover {
+    background-color: #00897b;
+    color: white;
+    box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+}
+
+.button_services:hover {
+    cursor: pointer;
+}
+
+/*Portfolio*/
+.portfolio {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 135px;
+}
+
+.portfolio button {
+    color: black;
+    border: 2px #00897b solid;
+    background: transparent;
+}
+
+.portfolio button:hover {
+    color: white;
+    background: #00897b;
+    border: 2px #00897b solid;
+}
+
+.portfolio img {
+    margin: 30px;
+}
+
+.filter {
+    padding: 120px 0;
+}
+
+/*Price*/
+.pricing {
+    background-color: #f0f1f1;
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: black;
+    text-align: center;
+}
+
+.price {
+    background: white;
+    transition: 0.3s;
+}
+
+.price__head p {
+    font-size: 25px;
+}
+
+.price__head sup {
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.price__head sub {
+    vertical-align: middle;
+    font-size: 17px;
+}
+
+.price__head {
+    background-image: url(../img/Trail.png);
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 300px;
+    color: white;
+    font-size: 50px;
+}
+
+.price__body {
+    font-size: 17px;
+    color: #212121;
+    border: #bfbfbf 1px;
+    background-color: white;
+}
+
+.price__body ul li {
+    border-bottom: #bfbfbf 1px solid;
+    max-width: 175px;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 12px;
+}
+
+.price__footer {
+    padding-top: 60px 0;
+    background-color: white;
+}
+.price__footer button {
+    cursor: pointer;
+    border: 2px black solid;
+    margin: 65px 0;
+    padding: 20px 30px;
+    background: transparent;
+    transition: 0.3s;
+}
+.price__footer button:hover {
+    color: #ffffff;
+    background: #00897b;
+    border: #00897b 2px solid;
+}
+.price:hover {
+    box-shadow: 1px 1px 30px 2px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: 1px 1px 30px 2px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 1px 1px 30px 2px rgba(0, 0, 0, 0.66);
+}
+/*Team*/
+.team {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    text-align: center;
+    color: black;
+    background: white;
+}
+.team__social {
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+.social {
+    transition: 0.3s;
+    background: #f0f1f1;
+    color: #00897b;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-size: 25px;
+    justify-content: center;
+    user-select: none;
+}
+.team__social h5 {
+    font-family: 'Open Sans Semibold';
+}
+.social:hover {
+    background: #3949ab;
+    color: white;
+}
+/*Blog*/
+.left > div:first-child {
+    order: 1;
+}
+.left > div:last-child {
+    order: 2;
+}
+.right>div:first-child {
+    order: 2;
+}
+
+.right>div:last-child {
+    order: 1;
+}
+.blog {
+    text-align: left;
+}
+.blog a {
+    text-align: left;
+    font-size: 25px;
+    color: #212121;
+    font-family: 'Open Sans Semibold';
+    text-decoration: none;
+    transition: 0.3s;
+}
+.blog a:hover {
+    color: #00897b;
+}
+.blog div {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.blog span {
+    margin-right: 35px;
+    font-size: 17px;
+    font-family: 'Open Sans Semibold';
+}
+.blog i {
+    margin-right: 15px;
+}
+.blog p {
+    font-size: 15px;
+}
+.left, .right {
+    margin: 0 40px;
+}
+/*footer*/
+.footer {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: white;
+    background-image: url(../img/footer.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location_on, .call, .mail_outline {
+    font-size: 65px;
+    color: white;
+}
+.circle {
+    background-color: #3949ab;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 35px;
+
+}
+.footer input, .footer textarea {
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+.footer textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    resize: none;
+}
+.form {
+    margin-top: 70px;
+}
+.footer button {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px 80px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.footer input:focus, .footer textarea:focus {
+    outline: none;
+}
+.rules {
+    text-align: center;
+    font-family: 'Open Sans Semibold';
+    padding: 20px 0;
+}
